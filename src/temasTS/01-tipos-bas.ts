@@ -11,3 +11,8 @@ let activo:boolean
 let suma:number = num1 + num2 + num3
 
 console.log('La suma es: ' + suma)
+
+let matricula: number|string
+matricula = 12346789
+matricula = "John"
+console.log(matricula)
